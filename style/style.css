@@ -26,6 +26,11 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+.ct{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 /* Header css */
 .iconntext{
    display: flex;
@@ -157,4 +162,17 @@ nav{
      top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* banner4 */
+
+.banner4{
+    /* text-align: center; */
+}
+.cntb41{
+    text-align: center;
+}
+.cntb42{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
