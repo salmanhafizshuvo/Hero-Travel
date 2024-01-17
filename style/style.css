@@ -396,6 +396,7 @@ max-width: 474px;
 max-height: 422px;
 }
 .row71 label > input {
+    outline: none;
     margin: 15px 0px;
     width: 100%;
     padding: 20px;
@@ -504,7 +505,26 @@ transform: rotate(-32deg);
    }
    .banner{
     margin: 10px;
-
    }
+   /* .bgimg1 , .bgimg2 {
+     width: 70%;
+   }
+   .bgimg1 img{
+    width: 100%;
+   } */
+   .bgimg1 , .bgimg2{
+    max-width: 10%;
+   }
+   .footertxt {
+    max-width: 80%;}
+    .bwc3 {
+        margin: 20px;}
+
+        .cardb43 {
+            display: block;
+            width: 80%;
+        }
+        nav {
+            padding: 5px 20px;}
 
 }
