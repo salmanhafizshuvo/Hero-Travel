@@ -196,13 +196,27 @@ select,
 }
 
 .itxt {
-    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.156);
+    width: 100%;
+    height: 100%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    overflow: hidden; 
+    /* font-size: 28px;
     font-weight: 800;
     color: #FFF;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;*/
+    transform: translate(-50%, -50%); 
 }
 
 /* banner4 */
@@ -259,6 +273,49 @@ select,
 .cntbt5p1 {
     padding: 20px 0px;
 }
+.gellary{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.gellary img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.item{
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+.item-1{
+    grid-column: auto/span 6;
+}
+.item-2{
+    grid-column: auto/span 6;
+}
+.item-3{
+    grid-column: auto/span 4;
+}
+.item-4{
+    grid-column: auto/span 5;
+} 
+.item-5{
+    grid-column: auto/span 3;
+} 
+.item-6{
+    grid-column: auto/span 5;
+} 
+.item-7{
+    grid-column: auto/span 7;
+} 
+
+
 
 .cntb5 {
     
@@ -481,6 +538,14 @@ transform: rotate(-32deg);
     }
     .banner4 {
         padding: 50px 18px;
+    }
+
+    .gellary{
+        grid-template-columns: 1fr;
+    
+    }
+    .gellary .item {
+        grid-column: auto;
     }
 
 .banner7 {
